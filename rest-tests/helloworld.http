@@ -1,0 +1,20 @@
+
+
+
+POST http://localhost:3000/addBlock
+content-type: application/json
+
+{
+    "nonce": 100,
+    "prevHash": "0aof893",
+    "transactions": []
+}
+
+
+POST http://localhost:3000/addNode
+content-type: application/json
+
+{
+    "ip": "localhost:3000",
+    "timestamp":"{{$timestamp}}"
+}

@@ -1,0 +1,1 @@
+npx ts-node-dev index.ts 4444
